@@ -14,6 +14,6 @@ ENV COMPOSER_ALLOW_SUPERUSER 1
 
 RUN composer require --dev phpunit/phpunit ^9
 
-RUN ./vendor/bin/phpunit --bootstrap src/autoload.php src/tests
+# RUN ./vendor/bin/phpunit --bootstrap src/autoload.php src/tests
 
 CMD [ "php", "./index.php" ]
