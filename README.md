@@ -28,7 +28,10 @@ $jsonDb = new JSONDB( __DIR__ );
 ```
 
 #### Inserting
-Insert into new JSON file. Using *users.json* as example here
+Insert into new JSON file.
+Insert automatically add 2 fields, *_id*, *createdAt*
+
+Using *users*, users.json will be created (if not exist)
 
 **NB:** *Columns inserted first will be the only allowed column on other inserts*
 
