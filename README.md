@@ -1,6 +1,11 @@
 ## flashy-test
 A PHP Class that reads JSON file as a database
 
+#### All working examples in the index.php file
+```
+php index.php
+```
+
 #### Docker compose
 ```
 make start
