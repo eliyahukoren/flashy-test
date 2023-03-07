@@ -1,5 +1,5 @@
 {
-  "name": "json-db",
+  "name": "eli/jsondb",
   "description": "A PHP Class that reads JSON file as a database.",
   "type": "library",
   "license": "MIT",
