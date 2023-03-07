@@ -90,7 +90,7 @@ $whereUsers = $jsonDb->select( 'name, state'  )
 	->get();
 
 print_r( $whereUsers );  	
-	
+```
 
 ##### Order By:
 ```php
