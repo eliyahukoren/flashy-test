@@ -8,8 +8,9 @@
 function autoLoader($class_name)
 {
   // autoload helpers
-  include_once("src/helpers/dataTypes.php");
-  include_once("src/helpers/json.php");
+  foreach (glob("src/helpers/*.php") as $filename) {
+    include_once $filename;
+  }
 
   $file = __DIR__ . '/includes/classes/' . $class_name . '.php';
 
