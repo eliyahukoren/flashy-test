@@ -132,3 +132,12 @@ $jsonDb->delete()
 	->flush();
 
 ```
+
+#### Performance tests output
+```
+Took average of 1401.686666 ms to insert 1000 records - BATCH 1
+Took average of 1578.012055 ms to insert 1000 records - BATCH 2
+Took average of 1520.875350 ms to insert 1000 records - BATCH 3
+Took average of 1636.223037 ms to insert 1000 records - BATCH 4
+Took average of 1581.504951 ms to insert 1000 records - BATCH 5.
+```
