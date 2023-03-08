@@ -1,4 +1,5 @@
-FROM php:7.4-cli
+# FROM php:7.4-cli
+FROM php:7.4-apache
 
 RUN apt-get update && apt-get install -y \
   zip \
@@ -16,4 +17,4 @@ RUN composer require --dev phpunit/phpunit ^9
 
 RUN ./vendor/bin/phpunit --bootstrap src/autoload.php src/tests
 
-CMD [ "php", "./index.php" ]
+# CMD [ "php", "./index.php" ]
