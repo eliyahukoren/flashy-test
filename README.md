@@ -1,3 +1,13 @@
+![codewars](https://www.codewars.com/users/eliyahukoren/badges/large)
+
+##
+
+![](https://img.shields.io/github/actions/workflow/status/eliyahukoren/flashy-test/actions.yml?label=PHP%20JSON%20DB&logo=logo)
+
+##
+
+![Language](https://img.shields.io/badge/Language-PHP-blue)
+
 ## flashy-test
 A PHP Class that reads JSON file as a database
 
