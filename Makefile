@@ -3,4 +3,6 @@ build:
 run:
 	docker run -it --rm --name flashy-test-app flashy-test
 start:
-	docker-compose up --build app	
+	docker-compose up --build app
+local:
+	docker-compose up  --build app-local --file Dockerfile-local
