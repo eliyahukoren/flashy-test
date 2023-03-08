@@ -2,7 +2,7 @@
 
 ##
 
-![](https://img.shields.io/github/actions/workflow/status/eliyahukoren/flashy-test/actions.yml?label=PHP%20JSON%20DB&logo=logo)
+![](https://img.shields.io/github/actions/workflow/status/eliyahukoren/flashy-test/tests.yml?label=PHP%20JSON%20DB&logo=logo)
 
 ##
 
